@@ -1,0 +1,9 @@
+inherits = "kanagawa-dragon"
+
+"ui.background" = { fg = "fg", bg = "none" }
+"ui.menu" = { fg = "fg", bg = "none" }
+"ui.statusline" = { fg = "fg", "bg" = "none" }
+"ui.popup" = { fg = "fg", "bg" = "none"}
+"ui.gutter" = { fg = "fg", bg = "none" }
+"ui.gutter.selected" = { fg = "fg", bg = "none" }
+"ui.linenr" = { fg = "fg", bg = "none" }
