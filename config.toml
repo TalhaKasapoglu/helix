@@ -1,40 +1,27 @@
-# theme = "gruvbox"
-# theme = "gruvbox-material"
-# theme = "solarized_dark"
-# theme = "base16_default_dark"
-# theme = "kanagawa"
-# theme = "kanagawa-dragon"
 theme = "kanagawa-dragon-new"
-# theme = "everforest_dark"
-# theme = "rose_pine_moon"
-# theme = "nord"
-# theme = "nord-night"
-# theme = "term16_dark"
 
 [editor]
 end-of-line-diagnostics = "hint"
+completion-timeout = 0
+line-number = "relative"
 
 [editor.cursor-shape]
 normal = "block"
-insert = "block"
+insert = "bar"
 
 [editor.statusline]
 left = ["mode", "spinner"]
 center = ["file-name", "file-modification-indicator"]
 
-[editor.whitespace.render]
-tab = "all"
-
-[editor.whitespace.characters]
-space = "·"
-nbsp = "⍽"
-nnbsp = "␣"
-tab = "→"
-newline = "⏎"
-tabpad = "·"
+[editor.auto-save]
+focus-lost = true
+after-delay.enable = true
 
 [editor.inline-diagnostics]
 cursor-line= "warning"
+
+[editor.lsp]
+display-inlay-hints = true
 
 [keys.normal]
 C-s = ":w!"
